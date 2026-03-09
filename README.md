@@ -225,13 +225,13 @@ df["Cuentas_Diarias"] = (df["account.Charges.Monthly"] / 30).round(4)
 
 ### Distribución de Variables Numéricas
 
-![Distribución Numéricas](images/paso7_distribucion_numericas.png)
+![Distribución Numéricas](images/graficopaso7_distribucion_numericas.png)
 
 ---
 
 ### Distribución de la Variable Evasión
 
-![Distribución Evasión](images/paso8_distribucion_evasion.png)
+![Distribución Evasión](images/graficopaso8_distribucion_evasion.png)
 
 > El dataset presenta un **desbalance de clases**: 73.5% permanece vs 26.5% evade. Considerar técnicas de balanceo (SMOTE, class_weight) para modelos futuros.
 
@@ -239,15 +239,15 @@ df["Cuentas_Diarias"] = (df["account.Charges.Monthly"] / 30).round(4)
 
 ### Tasa de Evasión por Variable Categórica
 
-![Evasión Categóricas](images/paso9_evasion_categoricas.png)
+![Evasión Categóricas](images/graficopaso9_evasion_categoricas.png)
 
 ---
 
 ### Distribución de Variables Numéricas por Grupo de Evasión
 
-![Evasión Numéricas KDE](images/paso10_evasion_numericas.png)
+![Evasión Numéricas KDE](images/graficopaso10_evasion_numericas.png)
 
-![Evasión Numéricas Boxplot](images/paso10_boxplots_numericas.png)
+![Evasión Numéricas Boxplot](images/graficopaso10_boxplots_numericas.png)
 
 ---
 
